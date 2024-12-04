@@ -1,0 +1,76 @@
+* {
+    font-family: serif;
+}
+
+h2 {
+  color: darkred;
+  text-decoration: underline;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: rgba(245, 11, 11, 0.836);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    box-shadow:  4px 8px  rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+   
+    padding: 50px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+
+  nav {
+    background-color: rgba(102, 5, 5, 0.836);
+    padding: 5px;
+
+    position: sticky;
+    top: 1;
+
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+  nav a {
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+   
+    color: white;
+  }
+
+  .profile img {
+    width: 300px;
+  }
+
+
+  footer {
+    padding: 20px;
+    color: white;
+    background-color: rgba(102, 5, 5, 0.836);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
